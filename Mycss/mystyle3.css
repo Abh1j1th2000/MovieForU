@@ -1,0 +1,55 @@
+section.subscribe {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+}
+
+.subsc{
+    box-sizing: border-box;
+    display: block;
+    border-style: solid;
+    padding: 50px;
+    display: table;
+    text-align: center;
+    background-color: #ddd;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    
+    /* Style the "active" element to highlight the current page */
+    .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+    }
+
+    * {
+        box-sizing: border-box;
+        }
+        
+        
+        /* Add a black background color to the top navigation bar */
+        .topnav {
+        overflow: hidden;
+        background-color: #e9e9e9;
+        }
+        
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            display: flex;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            justify-content: center;
+        }
+        .topcenter{
+          width: 95%;
+          text-align: center;
+        }

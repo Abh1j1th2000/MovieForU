@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Form</title>
+    <link rel="icon" href="myImages/icon.jpg" />
+    <link rel="stylesheet" href="Mycss/mystyle3.css">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a class="topcenter" href="index.html"><img src="myImages/icon.jpg" width="30" height="20"><em> MovieforU</em></a>
+      </div>
+    <section class="subscribe">
+        <div class="subsc">
+        <h1>Subcription</h1>
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="fname">First Name:</label></td>
+                    <td><input id="name" name="Name" onblur="validate1()" ></td></tr>
+                <tr><td></td><td id="error1"></td></tr>
+                <tr>
+                    <td><label for="age">Age: </label></td>
+                    <td> <input type="number"  id="age"  onblur="validate2()"  ></td></tr>
+                <tr><td></td><td id="error2"></td></tr>
+                <tr><td><label for="contact">Phone No: </label></td>
+                    <td><input id="contact"  type="tel"  onblur="validate3()"></td></tr>
+                <tr><td></td><td id="error3"></td></tr>
+                <tr><td> <label for="mail">Email Id: </label></td>
+                    <td><input type="email"  id="mail"   onblur="validate4()"></td></tr>
+                <tr><td></td><td id="error4"></td></tr>
+                <tr><td> <label for="mail">Type: </label></td>
+                    <td><input type="radio" name="type" value="mon"> 239/<small>month</small></td></tr>
+                <tr><td></td><td><input type="radio" name="type" value="yearly"> 1299/<small>year</small><td></tr>
+                <tr><td></td><td id="error5"></td></tr>
+                <tr><td></td><td> <input type="submit" value="PAY"> <input type="reset"></td></tr>
+            </table>
+        </form>
+    </div>
+    </section>
+    <script src="Myscript/validate.js"></script>
+</body>
+</html>
+
+
+
+
+        
+       
+         
+       
